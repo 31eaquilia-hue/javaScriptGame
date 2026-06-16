@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🗡️ The Lost Temple Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚔️ The Lost Temple Adventure ⚔️</h1>
+            <div class="stats">
+                <div class="stat">
+                    <span class="label">Health:</span>
+                    <div class="bar">
+                        <div id="healthBar" class="fill" style="width: 100%"></div>
+                    </div>
+                    <span id="healthText">100/100</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Inventory:</span>
+                    <span id="inventory">Empty</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div id="story" class="story-text"></div>
+            <div id="choices" class="choices"></div>
+        </div>
+
+        <div class="info">
+            <p>💾 Made with JavaScript | Choose wisely! 🎮</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
